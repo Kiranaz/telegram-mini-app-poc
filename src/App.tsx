@@ -17,7 +17,7 @@ function App() {
       {initData && (
         <div>
           <h1>Init Data</h1>
-          <pre>{JSON.stringify(initData, null, 2)}</pre>
+          <pre>{initData}</pre>
         </div>
       )}
       <div>
