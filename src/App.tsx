@@ -14,6 +14,12 @@ function App() {
 
   return (
     <>
+      {initData && (
+        <div>
+          <h1>Init Data</h1>
+          <pre>{JSON.stringify(initData, null, 2)}</pre>
+        </div>
+      )}
       <div>
         <a href='https://vitejs.dev' target='_blank'>
           <img src={viteLogo} className='logo' alt='Vite logo' />
