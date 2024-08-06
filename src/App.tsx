@@ -6,20 +6,20 @@ import { initInitData } from '@telegram-apps/sdk'
 
 function App() {
   const [count, setCount] = useState(0)
-  const [initData] = initInitData() as any
+  // const [initData] = initInitData() as any
 
-  useEffect(() => {
-    console.log('initData', initData)
-  }, [initData])
+  // useEffect(() => {
+  //   console.log('initData', initData)
+  // }, [initData])
 
   return (
     <>
-      {initData && (
+      {/* {initData && (
         <div>
           <h1>Init Data</h1>
           <pre>{initData}</pre>
         </div>
-      )}
+      )} */}
       <div>
         <a href='https://vitejs.dev' target='_blank'>
           <img src={viteLogo} className='logo' alt='Vite logo' />
